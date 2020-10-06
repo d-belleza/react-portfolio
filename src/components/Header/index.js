@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+function Header(props) {
 
 
     return (
@@ -9,6 +9,7 @@ function Header() {
                 <a href="/">
                     davidbelleza
                 </a>
+                {props.children}
             </h2>
         </header>
     );

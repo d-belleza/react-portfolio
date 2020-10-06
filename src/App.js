@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   const [categories] = useState([
-    { name: 'About Me' },
+    { name: 'About' },
     { name: 'Work'},
     { name: 'Contact'},
     { name: 'Resume'}
