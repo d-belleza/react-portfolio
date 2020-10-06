@@ -4,10 +4,12 @@ function Header() {
 
 
     return (
-        <header>
-            <p>
-                Header Loaded
-            </p>
+        <header className="flex-row px-1">
+            <h2>
+                <a href="/">
+                    davidbelleza
+                </a>
+            </h2>
         </header>
     );
 }
