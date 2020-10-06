@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
             <div>
-                <img className="headshot" src={Headshot} alt="This is me"></img>
+                <img className="headshot space-between" src={Headshot} alt="This is me"></img>
             </div>
             <div>
                 <h2>

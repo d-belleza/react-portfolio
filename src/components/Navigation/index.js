@@ -14,7 +14,7 @@ function Navigation(props) {
     }, [currentCategory]);
 
     return (
-        <nav>
+        <nav >
         <ul className="flex-row">
         {categories.map(category => (
           <li
